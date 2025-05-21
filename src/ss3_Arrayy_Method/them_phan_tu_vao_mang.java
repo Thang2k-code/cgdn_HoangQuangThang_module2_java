@@ -20,7 +20,7 @@ public class them_phan_tu_vao_mang {
         int x = sc.nextInt();
         System.out.print("Nhập vị trí cần chèn (index): ");
         int index = sc.nextInt();
-        if (index < 0 || index > soluongphantu) {
+        if (index < -1 || index > soluongphantu) {
             System.out.println("Không chèn được phần tử vào mảng.");
         } else {
             for (int i = soluongphantu; i > index; i--) {
