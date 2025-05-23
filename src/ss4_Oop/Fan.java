@@ -1,10 +1,8 @@
 package ss4_Oop;
 public class Fan {
-    // Hằng số tốc độ
     public static final int SLOW = 1;
     public static final int MEDIUM = 2;
     public static final int FAST = 3;
-
     private int speed = SLOW;
     private boolean on = false;
     private double radius = 5;
@@ -14,11 +12,9 @@ public class Fan {
     public int getSpeed() {
         return speed;
     }
-
     public void setSpeed(int speed) {
         this.speed = speed;
     }
-
     public boolean isOn() {
         return on;
     }
@@ -51,7 +47,6 @@ public class Fan {
         }
     }
     public static void main(String[] args) {
-        // Tạo đối tượng Fan 1
         Fan fan1 = new Fan();
         fan1.setSpeed(Fan.FAST);
         fan1.setRadius(10);
