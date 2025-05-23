@@ -3,7 +3,7 @@ package ss5_accessModifier;
 public class student {
     private String name ="John";
     private String classes="C02";
-    public Student(){
+    public student(){
     }
     public void setName(String name){
         this.name=name;

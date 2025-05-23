@@ -1,13 +1,25 @@
 package ss5_accessModifier;
+
 import java.util.Scanner;
-public class TestCircle {
-    public static void main(String[] args){
+
+public class TestStudent {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Input your Radius: ");
-        double r = sc.nextDouble();
-        Circle c = new Circle(r);
-        System.out.println("Radius is: " + c.getRadius());
-        System.out.println("Area is: " + c.getArea());
+
+        student student = new student();
+
+        System.out.print("Nhập tên mới: ");
+        String newName = sc.nextLine();
+
+        System.out.print("Nhập lớp mới: ");
+        String newClass = sc.nextLine();
+
+        student.setName(newName);
+        student.setClasses(newClass);
+
+        System.out.println("Thông tin sinh viên sau khi cập nhật:");
+        System.out.println(student.getInfo());
+
         sc.close();
     }
 }
