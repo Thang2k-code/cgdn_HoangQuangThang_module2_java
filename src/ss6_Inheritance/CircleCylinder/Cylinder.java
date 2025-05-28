@@ -1,5 +1,8 @@
-package ss6_Inheritance;
-    public class Cylinder extends Circle {
+package ss6_Inheritance.CircleCylinder;
+
+import ss6_Inheritance.CircleCylinder.Circle;
+
+public class Cylinder extends Circle {
         private double height;
         public Cylinder() {
             super();

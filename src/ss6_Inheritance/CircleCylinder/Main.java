@@ -1,4 +1,7 @@
-package ss6_Inheritance;
+package ss6_Inheritance.CircleCylinder;
+
+import ss6_Inheritance.CircleCylinder.Circle;
+import ss6_Inheritance.CircleCylinder.Cylinder;
 
 public class Main {
     public static void main(String[] args) {

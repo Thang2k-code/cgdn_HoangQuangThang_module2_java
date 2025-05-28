@@ -1,4 +1,4 @@
-package ss6_Inheritance;
+package ss6_Inheritance.CircleCylinder;
     public class Circle {
         private double radius;
         private String color;
